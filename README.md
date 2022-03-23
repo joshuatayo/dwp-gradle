@@ -6,7 +6,7 @@ Using the language of your choice please build your own API which calls the API 
 
 ## Solution
 
-The solution I have developed for this online test a Java web app that runs on spring boot. It
+The solution I have developed for this online test is a Java web app that runs on spring boot. It
 offers 2 rest endpoints. 
 
 

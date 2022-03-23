@@ -21,22 +21,37 @@ on screen.
 
 To build the solution run the following commands from the root folder:
 
-```
-```
+macOS / 'nix
+
+`./gradlew build` or `./mvnw install`
+
+Windows:
+
+`gradlew.bat build` or `./mvnw.cmd install`
 
 ### To Run
 
 To Run the solution run the following commands from the root folder:
 
-```
-```
+macOS / 'nix
+
+`./gradlew bootRun` or `./mvnw spring-boot:run`
+
+Windows:
+
+`gradlew.bat bootRun` or `./mvnw.cmd spring-boot:run`
 
 ### To Test
 
 To Test the solution run the following commands from the root folder:
 
-```
-```
+macOS / 'nix
+
+`./gradlew test` or `./mvnw test`
+
+Windows:
+
+`gradlew.bat test` or `./mvnw.cmd test`
 
 ### How to use
 
@@ -45,9 +60,9 @@ The solution offers 2 methods of getting the specified users:
 #### Api Call
 
 The solution has 2 GET rest endpoints. One to return users within London or any other location 
-and one return within 50 miles of London or any other location. Both endpoints uses parameters. 
+and one return within 50 miles of London or any other location. Both endpoints uses parameter. 
 
-To use with parameter, replace the values in the angle brackets: 
+The parameter(City name) should replace the values in the angle brackets: 
 
 To return all users within London or any other location:
 
